@@ -1,7 +1,7 @@
-const homePage = require('./homePage');
 const allData = require('./allData');
+const addNote = require('./addNote');
 
 module.exports = {
-  homePage,
   allData,
+  addNote,
 };
