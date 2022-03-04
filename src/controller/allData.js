@@ -1,7 +1,7 @@
-const getData = require('../database/queries/getData');
+const selectData = require('../database/queries/selectData');
 
 const allData = (req, res) => {
-  getData()
+  selectData()
     .then((data) => res.json(data.rows))
     .catch((error) => console.log(error));
 };
