@@ -13,5 +13,22 @@
     "eslint": "^8.10.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.4"
-  }
+  },
+  "name": "to-do-app",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeenaAlghazali/To-Do-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeenaAlghazali/To-Do-App/issues"
+  },
+  "homepage": "https://github.com/DeenaAlghazali/To-Do-App#readme"
 }
