@@ -5,6 +5,7 @@ const router = express.Router();
 
 router.get('/allData', controller.allData);
 router.get('/getUsers', controller.getUsers);
+router.post('/create-note', controller.addNote);
 
 // router.use(controller.error404);
 // router.use(controller.error500);
