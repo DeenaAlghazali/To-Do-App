@@ -11,10 +11,12 @@
     <h1>To Do App</h1>
     <form action="/create-note" method="post">
         <label for="userName">Enter Your Name</label>
-        <input type="text" name="userName" id="userName">
+        <select class="select" name="user_id"></select>
         <label for="note">Note</label>
         <input type="text" name="note" id="note" placeholder="Enter Your Note">
+        <button type="submit">add note</button>
     </form>
+    <a href="html/index.html">add user</a>
     <div class="notes"></div>
     <script src="js/index.js"></script>
     <script src="js/displayAllNotes.js"></script>
